@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conoce Disney</title>
+    <link rel="shortcut icon" href="disney.png" type="image/x-icon">
+</head>
+<style>
+*{
+     margin:0px;
+     padding: 0px;
+  }
+  #portada{
+      background: url(land3.jpg);
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100vh;
+  }
+  header{
+      width: 100%;
+      height: 75px;
+   /*border: 1px solid blue;*/
+   background-color: rgba(255,255,255,0.60);
+  }
+  #logo{
+    display: inline-block;
+      vertical-align: top;
+    width: 90px;
+    height: 65px;
+    padding-top: 5px;
+    padding-left: 10px;
+   /* border: 1px solid blue;*/
+  }
+  #logo img{
+      height: 100%;
+  }
+  nav{
+      display: inline-block;
+      vertical-align: top;
+     /* border: 1px solid blue;*/
+      height: 40px;
+      width: 70%;
+      padding-top: 25px;
+      text-align: center;
+  }
+  nav a{
+      text-decoration: none;
+      margin-right: 20px;
+      color:#707070;
+      font-weight: bold;
+  }
+  #telefono{
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    height: 65px;
+    color:#707070;
+   /* border: 1px solid blue;*/
+  }
+  #telefono img{
+      height: 50%;
+      padding-top: 18px;
+      padding-right: 10px;
+  }
+#telefono img, #telefono b{
+display: inline-block;
+vertical-align: top;
+}
+#telefono b{
+padding-top: 25px;
+}
+.conteniido{
+    width: 100%;
+    height: 80%;
+    padding-top: 3%;
+} 
+ .cajaIzq{
+     width: 67%;
+     height: 80%;
+     display: inline-block;
+    vertical-align: top;
+    /*border: 1px solid #0000ff;*/
+    text-align: right;
+    position: relative;
+ }
+ .titulo{
+     position: absolute;
+     top:0px;
+     right: 0px;
+     text-align: center;
+     width: 225px;
+     padding: 20px;
+     background-color: rgba(255,255,255,0.60);
+     border-radius: 20px;
+     color:#707070;
+ }
+ .cajaDer{
+     width: 25%;
+     height: 80%;
+     display: inline-block;
+    vertical-align: top;
+    /*border: 1px solid blue;*/
+    margin-left: 5%;
+    /*text-align: right;*/
+ }
+
+ /*  Cajas Servicios */
+
+ .servicios{
+     width: 80%;
+     padding: 10px;
+     background-color: rgba(255,255,255,0.60);
+     border-radius: 20px;
+     color:#707070;
+     margin-bottom: 20px;
+ }
+ .servicios img{
+     height: 50px;
+     display: inline-block;
+     vertical-align: top;
+ }
+ .servicios b{
+display: inline-block;
+vertical-align: top;
+padding-top: 10px;
+width: 100px;
+ }
+ .servicios:hover{
+     background-color: rgb(43, 41, 41);
+     color: white;
+ }
+</style>
+<body>
+    <section id="portada">
+        <header>
+            <div id="logo">
+             <img src="mickey2.png" alt="">
+             </div>
+            <nav>
+              <a href="https://disneyland.disney.go.com/destinations/disneyland/">Parks & Tickets</a>
+              <a href="https://disneyland.disney.go.com/hotels/paradise-pier-hotel/">Places to Stay</a>
+              <a href="https://disneyland.disney.go.com/attractions/">Things to Do</a>
+              <a href="https://www.shopdisney.com/accessories-content/">Shop</a>
+            </nav>
+            <div id="telefono">
+                 <img src="iphone.png" alt="">
+                 <b>(212) 324-4152 </b>
+             </div>
+        </header>
+        <div class="conteniido">
+            <div class="cajaIzq">
+                <div class="titulo">
+                    <h1>Come and discover the wonderful world of Disney</h1>
+                </div>
+            </div>
+
+             <div class="cajaDer">
+                <div class="servicios">
+                    <a href="https://disneyparks.disney.go.com/blog/topics/magic-moments/"><img src="princess.png" alt=""></a>
+                    <b>Disney Princesses</b>
+                  </div>
+                  <div class="servicios">
+                      <a href="https://disneyland.disney.go.com/events-tours/a-touch-of-disney/"><img src="mickey.png" alt=""></a>
+                      <b>Ticket Options</b>
+                  </div>
+                  <div class="servicios">
+                    <a href="https://disneyland.disney.go.com/help/"><img src="olaf.png" alt=""></a>
+                      <b>Help</b>
+                  </div>      
+             </div>
+             <audio autoplay>
+                <source src="yt1s.com - Disney Movie Intro.mp3">
+            </audio>
+        </div>
+
+    </section>
+
+
+</body>
+</html>
